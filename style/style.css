@@ -82,7 +82,6 @@
      background-image: url(../assets/Hero-bg.png);
      background-repeat: no-repeat;
     background-position: top left, bottom right; 
-     background-attachment:fixed; 
     background-size: cover;
     justify-content: center;
     
@@ -90,12 +89,8 @@
 .home .content{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     text-align: center;
-    /* align-content: center; */
-    /* max-width: 50rem; */
-   align-items: center;
-
+    align-items: center;
 }
 
 
@@ -120,6 +115,7 @@
      cursor: pointer;
      text-decoration: none;  
      width: 30%;
+     transition: 0.3s ease;
 }
 .btn:hover{
     background-color: #4E47FF;
@@ -128,3 +124,67 @@
     transform: scale(1.1);
 }
 /* home section end */
+
+/* action section start */
+.action{
+     width: 100%;
+    min-height: 80vh; 
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.action-content{
+    max-width: 800px;
+
+}
+.action-content h3{
+    font-size: 42px;
+    color: rgb(37, 36, 50, 100%);
+
+}
+.action-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.action-content p{
+    font-size: 18px;
+    margin: 25px 0 30 px;
+    color: rgb(37, 36, 50, 50%);
+}
+
+.btn1{
+    padding: 15px 28px;
+    background-color: #4E47FF;
+    color: white;
+     border: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #4E47FF;
+    box-shadow: 0 0 25px #7977b7;
+    color: white;
+    transform: scale(1.1);
+}
+.img-box img{
+    border-radius: 10%;
+    width: 550px;
+}
+ ::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:  #4E47FF;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
+/* action section end */
+ 
