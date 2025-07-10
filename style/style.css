@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    font-family: "Raleway", sans-serif;
+}
+/* header section start */
+
+.header{
+     position: fixed;
+     width: 100%; 
+     padding: 35px 12%;
+     background: #4d47ff20; 
+     backdrop-filter: blur(0.9px);  
+     display: flex;
+     justify-content:space-between;
+     align-items:end;
+     z-index: 100;  
+}
+.logo{
+    font-size: 2rem;
+    color: #4E47FF;
+    font-weight: bold;
+    transition: 0.3s ease;
+    text-decoration: none;
+    font-family:"Inter", sans-serif;
+   font-optical-sizing: auto;
+}
+
+ .logo:hover{
+    color: #4E47FF;
+    text-shadow: 0 0 25px #4E47FF,
+                0 0 50px #4E47FF;
+    transform: scale(1.1);
+} 
+
+.navbar a{
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+ 
+.navbar a:hover,
+.navbar a.active{
+    color: #4E47FF;
+    border-bottom: 3px solod #4E47FF;
+} 
+.contact{
+    padding: 10px 28px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border:2px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s, ease;
+    text-decoration: none;
+}
+.contact:hover{
+    background-color: #4E47FF;
+    box-shadow: 0 0 25px #7977b7;
+    color: white;
+    transform: scale(1.1);
+}
+/* header section end */
+
+/* home section start */
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+     background-image: url(../assets/Hero-bg.png);
+     background-repeat: no-repeat;
+    background-position: top left, bottom right; 
+     background-attachment:fixed; 
+    background-size: cover;
+    justify-content: center;
+    
+}
+.home .content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    /* align-content: center; */
+    /* max-width: 50rem; */
+   align-items: center;
+
+}
+
+
+.home .content h5{
+    font-size: 65px;
+    color: rgb(37, 36, 50, 100%);
+    line-height: 1.5;
+    
+}
+
+
+
+.btn{
+     display: inline-block;
+     margin-top: 2rem; 
+     color: #FFFFFF;
+     background-color:#4E47FF;
+     padding: 1rem 0.1rem; 
+     border-radius: 0.5rem;
+     font-size: 1.5rem;
+     font-weight: 600;
+     cursor: pointer;
+     text-decoration: none;  
+     width: 30%;
+}
+.btn:hover{
+    background-color: #4E47FF;
+    box-shadow: 0 0 25px #7977b7;
+    color: white;
+    transform: scale(1.1);
+}
+/* home section end */
