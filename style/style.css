@@ -347,6 +347,7 @@
      }
      .contact .col form .text{
         font-weight: 600;
+        color:rgb(0, 0, 0, 100%); 
      }
      .contact .col form textarea{
         height: 15rem;
@@ -373,10 +374,46 @@
      }
      .contact .row h1{
         font-size: 50px;
+        color: rgb(0, 0, 0, 100%);
        
      }
 
      
      /* Contact us end */
+
+     /* footer section start */
+      .footer{
+        display: flex;
+        margin-top: 20px;
+    text-align: center;
+    height: 30vh;
+    align-content: center;
+    align-items: center;
+    background-color: #c9c8f18b;
+    justify-content: center;
+    flex-direction: column;
+    } 
+      .footer .log{
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #4E47FF ;
+      }  
+      .footer .ancor a{
+        text-decoration: none;
+        color: #8987A1;
+        
+    }
+        .footer .ancor{
+            
+            display: flex;
+            width: 30vw;
+            justify-content: space-between;
+            padding: 1rem;
+            margin: 0rem;
+            
+        }
+          .footer p{
+            color: #8987A1;
+          }
      
 
