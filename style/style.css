@@ -10,9 +10,7 @@
     font-family: "Raleway", sans-serif;
 }
 /* header section start */
-.body{
-    background-color: #f5f8ff49;
-}
+
 .header{
      /* position: fixed; */
      width: 100%; 
@@ -59,7 +57,7 @@
 .btn2{
     padding: 10px 28px;
     background-color: #4E47FF;
-    color: #ffffff99;
+    color: #FFFFFF;
     border:2px solid transparent;
     border-radius: 5px;
     font-size: 16px;
@@ -325,7 +323,7 @@
 /* Contact us start  */
    .contact{
     height: 80vh;
-    background-color: #7977b7;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -340,16 +338,42 @@
    .contact .col form .form-box{
         padding: 1rem;
         margin: 0.7rem 0;
-        font-size: 1.7rem;
+        font-size: 1rem;
         color: #333;
         text-transform: none;
         border: 0.1rem solid rgba(20, 17, 17, 0.1);
-        border-radius: 0.5rem;
+        border-radius: .5rem;
         width: 100%;
+     }
+     .contact .col form .text{
+        font-weight: 600;
      }
      .contact .col form textarea{
         height: 15rem;
         resize: none;
+     }
+     .contact .col form .btn3{
+        width: 100%;
+         padding: 15px 28px;
+    background-color: #4E47FF;
+    color: white;
+     border: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+     }
+     .contact .col form .btn3:hover{
+        background-color: #4E47FF;
+    box-shadow: 0 0 25px #7977b7;
+    color: white;
+    transform: scale(1.1);
+     }
+     .contact .row h1{
+        font-size: 50px;
+       
      }
 
      
