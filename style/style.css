@@ -100,6 +100,23 @@
     line-height: 1.5;
     
 }
+/* .btn{
+    padding: 15px 28px;
+    background-color:#4E47FF;
+    color: white;
+    border: 2px solid rgba(0, 0, 0, 0.695);
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    
+}
+.btn:hover{
+      background-color: white;
+    color:#4E47FF
+} */
 
 
 
@@ -108,6 +125,7 @@
      margin-top: 2rem; 
      color: #FFFFFF;
      background-color:#4E47FF;
+      border: 2px solid #4E47FF;
      padding: 1rem 0.1rem; 
      border-radius: 0.5rem;
      font-size: 1.5rem;
@@ -118,11 +136,11 @@
      transition: 0.3s ease;
 }
 .btn:hover{
-    background-color:#a9a2a293;
+    background-color: #FFFFFF;
     box-shadow: 0 0 25px #8683d3;
     color: #4E47FF;
     transform: scale(1.1);
-}
+} 
 /* home section end */
 
 /* action section start */
