@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Poppins', sans-serif;
+    /* font-family:'Poppins', sans-serif; */
     font-family: "Raleway", sans-serif;
 }
 /* header section start */
@@ -188,3 +188,47 @@
 }
 /* action section end */
  
+/* Productive Users Section start */
+    .Productive-Users{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+   }
+.Productive-Users .user-tittle{
+         display: flex;
+         background-color:  #4d47ff20;
+         width: 80vw;
+         text-align: center;
+         padding: 3.5rem 3.5rem;
+         border-radius: 1rem;
+         align-items: center;
+        flex-direction: column;
+}
+
+.Productive-Users .user-tittle h3{
+    font-size: 25px;
+    color: rgb(37, 36, 50, 100%);
+}
+.Productive-Users .user-tittle .user-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+    margin-top: 20px; 
+}
+.Productive-Users .user-tittle .user .div1{
+        font-size: 50px;
+        color: #4E47FF;
+        font-weight: 700;
+       font-family:"Inter", sans-serif;
+}
+.Productive-Users .user-tittle .user p{
+    color: rgb(0, 0, 0, 50%);
+}
+
+/* Productive Users Section end */
