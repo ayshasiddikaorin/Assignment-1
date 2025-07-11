@@ -118,7 +118,7 @@
      transition: 0.3s ease;
 }
 .btn:hover{
-    background-color:#FFFFFF;
+    background-color:#a9a2a293;
     box-shadow: 0 0 25px #8683d3;
     color: #4E47FF;
     transform: scale(1.1);
@@ -195,8 +195,8 @@
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
    }
 .Productive-Users .user-tittle{
          display: flex;
@@ -246,34 +246,19 @@
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-bottom: 5rem;
     flex-direction: column;
 } 
 
    .review .card-container{
-          /* display: flex;
-         gap:1.5rem; 
-         text-align: center;
-         padding: 3.5rem 3.5rem;
-         border-radius: 1rem;
-         align-items: center;
-         flex-direction: row;
-         align-content: start;  */
-         /* width: 100vw;
-         height: 100vh;  */
+         
          display: flex;
          place-items: center;
          background: #FFFFFF;
          width: 80vw;
 }
 .review .card-container .card{
-    /* flex: 1 1 30rem;
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    padding: 3rem 2rem;
-    position: relative;
-    border: 1rem solid rgba(0, 0, 0, 0.1); */
     
     width: 80vw;
     margin: 0% 1rem;
@@ -283,6 +268,13 @@
     box-shadow: inset 2px 2px 1px white,
                 4px 4px 4px rgba(0, 0, 0, 0.267);
     
+}
+.review .card-container .card:hover{
+   
+    box-shadow: 0 0 25px #7977b7;
+    color: white;
+    transform: scale(1.1);
+
 }
 
 .review .card-container .card h4{
@@ -312,48 +304,50 @@
     color: #B3B3B3;
 }
 .review .card-container .card .users img{
-    /* height: 6rem;
-    width: 6rem; */
+    
     border-radius: 50%;
     object-fit: cover;
     margin-right: 1rem;
 }
 /* review section end */
 
-/* Contact us start  */
-   .contact{
-    height: 80vh;
-    
+/* from section start  */
+.contact{
+    height: 60vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
    }
-   .contact .row{
+.contact .row{
     width: 50vh;
     height: 20vh;
    }
-   .contact .col{
+.contact .col{
     width: 50vh;
    }
-   .contact .col form .form-box{
+.contact .col form .form-box{
         padding: 1rem;
         margin: 0.7rem 0;
         font-size: 1rem;
+         font-family:"Inter", sans-serif;
         color: #333;
         text-transform: none;
         border: 0.1rem solid rgba(20, 17, 17, 0.1);
         border-radius: .5rem;
         width: 100%;
      }
-     .contact .col form .text{
+     .contact .col form .form-box:focus{
+        border: #4E47FF;
+     }
+.contact .col form .text{
         font-weight: 600;
         color:rgb(0, 0, 0, 100%); 
      }
-     .contact .col form textarea{
-        height: 15rem;
+.contact .col form textarea{
+        height: 8rem;
         resize: none;
      }
-     .contact .col form .btn3{
+.contact .col form .btn3{
         width: 100%;
          padding: 15px 28px;
     background-color: #4E47FF;
@@ -366,54 +360,53 @@
     transition: 0.3s ease;
     cursor: pointer;
      }
-     .contact .col form .btn3:hover{
+.contact .col form .btn3:hover{
         background-color: #4E47FF;
     box-shadow: 0 0 25px #7977b7;
     color: white;
     transform: scale(1.1);
      }
-     .contact .row h1{
+.contact .row h1{
         font-size: 50px;
         color: rgb(0, 0, 0, 100%);
        
      }
 
      
-     /* Contact us end */
+     /* form section end */
 
-     /* footer section start */
-      .footer{
+/* footer section start */
+.footer{
         display: flex;
         margin-top: 20px;
     text-align: center;
     height: 30vh;
     align-content: center;
     align-items: center;
-    background-color: #c9c8f18b;
+    background-color:  #4d47ff20;
     justify-content: center;
     flex-direction: column;
     } 
-      .footer .log{
+.footer .log{
         font-size: 3rem;
         font-weight: bolder;
         color: #4E47FF ;
       }  
-      .footer .ancor a{
+.footer .ancor a{
         text-decoration: none;
         color: #8987A1;
         
     }
-        .footer .ancor{
-            
-            display: flex;
-            width: 30vw;
-            justify-content: space-between;
-            padding: 1rem;
-            margin: 0rem;
+.footer .ancor{
+     display: flex;
+    width: 30vw;
+    justify-content: space-between;
+     padding: 1rem;
+    margin: 0rem;
             
         }
-          .footer p{
-            color: #8987A1;
-          }
-     
+.footer p{
+        color: #8987A1;
+}
+     /* footer section end */
 
